@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-family: 'Inter', sans-serif;
 }
 
 header {
@@ -283,25 +283,25 @@ header nav form button {
 .container-2 .about-me .exp .experience .tulisan  h2 {
     color: #FCC028;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 .container-2 .about-me .exp .experience .tulisan  h2:nth-child(2) {
     font-size: 16px;
     color: #000;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 .container-2 .about-me .exp .projects .tulisan  h2 {
     color: #FCC028;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 .container-2 .about-me .exp .projects .tulisan  h2:nth-child(2) {
     font-size: 16px;
     color: #000;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 .container-3 {
@@ -563,11 +563,12 @@ header nav form button {
 
 @media (max-width: 550px) {
     header nav {
+        height: 40px;
         justify-content: center;
     }
 
     header nav .brand {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     header nav form {
