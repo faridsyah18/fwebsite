@@ -33,7 +33,7 @@ header nav {
 
 header nav .brand {
     font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     font-weight: 400;
     line-height: 0.95;
 }
@@ -79,7 +79,7 @@ header nav form button {
     border: none;
     font-size: 20px;
     padding: 15px 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     color: #fff;
     letter-spacing: 0.8px;
     cursor: pointer;
@@ -518,8 +518,22 @@ header nav form button {
 /* media kueri */
 
 @media (max-width: 1280px) {
+    header nav {
+        background-color: #fcc028;
+    }
+
+    header nav .brand a {
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+
     header nav .links {
         display: none;
+    }
+
+    header nav form button {
+        background-color: #fff;
+        color: #000000;
     }
 
     .container-1 .profile {
@@ -655,7 +669,11 @@ header nav form button {
     }
 
     .container-3 .hard-skills fieldset {
-        max-width: 70%;
+        max-width: 80%;
+    }
+
+    .container-3 .soft-skills fieldset {
+        max-width: 80%;
     }
     
     .container-3 .hard-skills .hard-skills-logo .logos div {
@@ -665,9 +683,6 @@ header nav form button {
 
     .container-3 .hard-skills {
         margin-bottom: 2rem;
-    }
-
-    .container-3 .hard-skills {
     }
 
     .container-3 .soft-skills fieldset legend,
